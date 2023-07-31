@@ -40,9 +40,9 @@ class Fish implements Animal {
 }
 
 // Cliente
-function cliente(factory: AnimalFactory){
+function clienteFM(factory: AnimalFactory){
     console.log(factory.makeSound());
 }
 
-cliente(new DogFactory());
-cliente(new FishFactory());
+clienteFM(new DogFactory());
+clienteFM(new FishFactory());
